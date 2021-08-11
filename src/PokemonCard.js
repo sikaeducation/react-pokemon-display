@@ -21,10 +21,10 @@ const PokemonCard = ({ name }) => {
     <div className="PokemonCard">
       {
         pokemon.name
-          ? [
+          ? <>
             <h2>{titleCasedName}</h2>,
             <img src={pokemon.sprites.front_default} alt={pokemon.name} />
-          ]
+          </>
           : <span>Loading...</span>
       }
       {
