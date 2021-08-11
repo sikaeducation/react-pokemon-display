@@ -1,0 +1,15 @@
+.PokemonCard {
+  padding: 36px;
+  background-color: #fff;
+  color: hsl(240, 50%, 20%);
+  max-width: 250px;
+  text-align: center;
+}
+
+.PokemonCard img {
+  width: 200px;
+}
+
+.PokemonCard p {
+  font-size: 24px;
+}
